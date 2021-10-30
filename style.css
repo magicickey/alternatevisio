@@ -1,7 +1,7 @@
 /* Feuille de styles CSS */
 body 
 {
-  background-image:url('dd7b5a454c6e895ec6f409f45e939c09.jpg');
+  background-image:url('');
   color: blue;
   font-family: 'Anton', sans-serif;
 }
@@ -18,8 +18,8 @@ figure {
 
 
 ul {
-  border: 1px solid pink;
-  box-shadow: 6px 6px 0px blue;
+  border: 1px solid dark;
+  box-shadow: 6px 6px 0px brown;
 }
 
 
