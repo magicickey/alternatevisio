@@ -3,13 +3,13 @@ body
 {
   background-image:url('');
   color: black;
-  font-family: 'Anton', sans-serif;
+font-family: 'Shadows Into Light', cursive;
 }
 
 h1 {
   color: black;
   font-size: 3em;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 figure {
