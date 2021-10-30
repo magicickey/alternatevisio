@@ -1,13 +1,14 @@
 /* Feuille de styles CSS */
 body 
 {
+  background-color:black;
   background-image:url('');
-  color: black;
+  color: white;
 font-family: 'Shadows Into Light', cursive;
 }
 
 h1 {
-  color: black;
+  color: white;
   font-size: 3em;
   font-family: 'Shadows Into Light', cursive;
 }
@@ -19,7 +20,7 @@ figure {
 
 ul {
   border: 1px solid dark;
-  box-shadow: 6px 6px 0px brown;
+  box-shadow: 6px 6px 0px white;
 }
 
 
