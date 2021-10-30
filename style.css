@@ -7,9 +7,16 @@ body
 font-family: 'Shadows Into Light', cursive;
 }
 
-header {
-   background-image:url('f97c980b8b7a8929395b72d841aa64fd.jpg');
+header
+{
+  background-image:url('f97c980b8b7a8929395b72d841aa64fd.jpg');
 }
+
+header .row,
+footer .row {
+  color:red;
+  background-color:silver;
+background-image:url("");
 
 h1 {
   color: white;
