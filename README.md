@@ -11,4 +11,4 @@
 ![60b7aac30b8a2790ccdd6698c56eb290](https://github.com/magicickey/alternatevisio/blob/main/60b7aac30b8a2790ccdd6698c56eb290.jpg?raw=true)
 // contact 
 ![contact_us](https://github.com/magicickey/alternatevisio/blob/main/contact_us.png?raw=true)
-![](
+![190924_WhartonMagazine_AestheticIntelligence_CMYK_841x815_acf_cropped](https://github.com/magicickey/alternatevisio/blob/main/190924_WhartonMagazine_AestheticIntelligence_CMYK_841x815_acf_cropped.jpg?raw=true)
