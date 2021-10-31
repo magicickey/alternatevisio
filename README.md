@@ -6,4 +6,4 @@
 // about
 ![R](https://github.com/magicickey/alternatevisio/blob/main/R.jpg?raw=true)
 ![pexels-iryna-jyhila-9985046](https://github.com/magicickey/alternatevisio/blob/main/pexels-iryna-jyhila-9985046.jpg?raw=true)
-![pexels-yaroslava-borz-10012585](https://github.com/magicickey/alternatevisio/blob/main/pexels-yaroslava-borz-10012585.jpg?raw=true)
+
