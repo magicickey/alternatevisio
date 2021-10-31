@@ -1,84 +1,55 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
-$size: 150px;
+$color: #fd7000;
+$size: 12px;
+$time: 1;
 
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color:none;
+main {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background:  #090707;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin: 0 auto;
-  width: 50%;
+.dank-ass-loader {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   .row {
+      display: flex;
+   }
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotateX(-37.5deg) rotateY(45deg);
-  }
-  50% {
-    transform: rotateX(-37.5deg) rotateY(405deg);
-  }
-  100% {
-    transform: rotateX(-37.5deg) rotateY(405deg);
-  }
+.arrow {
+   width: 0; 
+   height: 0;
+   margin: 0 (-$size / 2);
+   border-left: $size solid transparent;
+   border-right: $size solid transparent;
+   border-bottom: ($size * 1.8) solid $color;
+   animation: blink $time + s infinite;
+   filter: drop-shadow(0 0 ($size * 1.5) $color);
+    
+   &.down {
+      transform: rotate(180deg);
+   }
+   
+   @for $i from 1 through 18 {
+      &.outer-#{$i} {
+         animation-delay: -($time / 18) * $i + s;
+      }  
+   }
+
+   @for $i from 1 through 6 {
+      &.inner-#{$i} {
+         animation-delay: -($time / 6) * $i + s;
+      }  
+   }  
 }
 
-.cube, .cube * {
-  position: absolute;
-  width: $size + 1;
-  height: $size + 1;
-}
-
-.sides {
-  animation: rotate 3s ease infinite;
-  animation-delay: .8s;
-  transform-style: preserve-3d;
-  transform: rotateX(-37.5deg) rotateY(45deg);
-}
-
-.cube .sides * {
-  box-sizing: border-box;
-  background-color: rgba(242, 119, 119, .5);
-  border: $size / 10 solid white;
-}
-
-@mixin side($name, $rotate, $i) {
-  .#{$name} {
-    animation: #{$name}-animation 3s ease infinite;
-    animation-delay: $i * 100ms;
-    transform: #{$rotate} translateZ($size);
-    animation-fill-mode: forwards;
-    transform-origin: 50% 50%;
-  }
-
-  
-  @keyframes #{$name}-animation {
-    0% { opacity: 1; transform: #{$rotate} translateZ($size)}  
-    20% { opacity: 1; transform: #{$rotate} translateZ($size / 2)}  
-    70% {  opacity: 1; transform: #{$rotate} translateZ($size / 2) }
-    90% {  opacity: 1; transform: #{$rotate} translateZ($size) }
-    100% {  opacity: 1; transform: #{$rotate} translateZ($size) }
-  }
-}
-
-.cube .sides {
-  @include side("top", rotateX(90deg), 0);
-  @include side("bottom", rotateX(-90deg), 0);
-  @include side("front", rotateY(0deg), 1);
-  @include side("back", rotateY(-180deg), 1);
-  @include side("left", rotateY(-90deg), 1);
-  @include side("right", rotateY(90deg), 1);
-}
-
-.text {
-  margin-top: $size * 3;
-  color: rgba(242, 119, 119, 1);
-  font-size: 1.5rem;
-  width: 100%;
-  font-weight: 600;
-  text-align: center;
+@keyframes blink {
+  0% { opacity: 0.1; }
+  30% { opacity: 1; }
+  100% { opacity: 0.1; }
 }
