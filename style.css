@@ -23,6 +23,13 @@ h1 {
   font-size: 3em;
   font-family: 'Shadows Into Light', cursive;
 }
+  
+  h2 {
+  color: red;
+  background-image:url('R.jpg);
+  font-size: 3em;
+  font-family: 'Shadows Into Light', cursive;
+}
 
 figure {
   text-align:center;
