@@ -3,20 +3,20 @@ body
 {
   background-color:none;
   background-image:url('t%C3%A9l%C3%A9charger%20(16).jpg');
-  color: blue;
+  color: black;
 font-family:'Fredoka One', cursive;
 }
 
 header
 {
   background-color:black;
-  color:red;
+  color:black;
 }
 
 header .row,
 footer .row {
-  color:red;
-  background-color:black;
+  color:black;
+  background-color:white;
 background-image:url("");
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
 }
   
   h2 {
-  color: red;
+  color: black;
   background-image:url('R.jpg);
   font-size: 2em;
   font-family: 'Shadows Into Light', cursive;
