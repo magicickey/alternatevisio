@@ -2,7 +2,7 @@
 body 
 {
   background-color:none;
-  background-image:url('wp3396912.jpg');
+  background-image:url('');
   color: blue;
 font-family:'Fredoka One', cursive;
 }
@@ -16,7 +16,7 @@ header .row,
 footer .row {
   color:black;
   background-color:silver;
-background-image:url("");
+background-image:url("wp3396912.jpg");
 
 h1 {
   color: white;
