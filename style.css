@@ -14,9 +14,9 @@ header
 
 header .row,
 footer .row {
-  color:black;
-  background-color:silver;
-background-image:url("t%C3%A9l%C3%A9charger%20(15).jpg");
+  color:red;
+  background-color:black;
+background-image:url("");
 
 h1 {
   color: white;
