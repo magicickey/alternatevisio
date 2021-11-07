@@ -3,7 +3,7 @@ body
 {
   background-color:none;
   background-image:url('wp3396912.jpg');
-  color: grey;
+  color: black;
 font-family:'Fredoka One', cursive;
 }
 
@@ -14,7 +14,7 @@ header
 
 header .row,
 footer .row {
-  color:white;
+  color:black;
   background-color:silver;
 background-image:url("");
 
