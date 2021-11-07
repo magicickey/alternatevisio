@@ -9,7 +9,8 @@ font-family:'Fredoka One', cursive;
 
 header
 {
-  background-image:url('');
+  background-color:black;
+  color:red;
 }
 
 header .row,
